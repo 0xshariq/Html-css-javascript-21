@@ -1,0 +1,7 @@
+modules = ["web", "typescript-language-server"]
+run = "G"
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "G"]
